@@ -1,0 +1,31 @@
+{
+  "name": "shop-app-redux",
+  "version": "1.2.2",
+  "description": "",
+  "main": "dist/store/src/store.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && xcopy package.json dist"
+  },
+  "exports": {
+    ".": "./dist/store/src/store.js",
+    "./actions": "./dist/store/src/actions/index.js"
+  },
+  "author": "Saksham Bhatnagar",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.18.23",
+    "@types/react": "^18.0.31",
+    "react-redux": "^8.0.5",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/redux": "^3.6.0",
+    "@types/redux-logger": "^3.0.9",
+    "@types/redux-thunk": "^2.1.0",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.2"
+  }
+}
